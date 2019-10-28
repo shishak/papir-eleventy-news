@@ -16,6 +16,11 @@ body {
 a {
   text-decoration: none;
   color: #303030;
+  transition: opacity 0.3s;	
+}
+a:hover {
+  opacity: .8;
+  transition: opacity 0.3s;	
 }
 header {
    text-align: center;
@@ -64,16 +69,16 @@ header {
 	z-index: 2;
 }
 .date-title-home {
-  font-size: 12px;
+  font-size: 14px;
   font-family: "Roboto", Helvetica, Arial, sans-serif;
-  color: gray;
+  color: #757575;
 }
 .date-title {
-  font-size: 12px;
+  font-size: 16px;
   margin-bottom: 50px;
   margin-top: 10px;
   font-family: "Roboto", Helvetica, Arial, sans-serif;
-  color: gray;
+  color: #303030;
 }
 .content {
   max-width: 850px;
@@ -100,7 +105,9 @@ header {
   float: right;
 }
 	
-
+p img {
+   margin-bottom: 30px;
+}
 
 h2 {
   margin-left: 0;
@@ -147,6 +154,9 @@ h2 {
 }
 .footer-container {
   margin-top: 0;
+}
+ .container {
+   padding: 0;	
 }
 }
 	
@@ -199,7 +209,8 @@ h2 {
 }
 
 small {
-  color: rgba(0, 0, 0, 0.3);
+  color: #616161;
+  font-size: 15px;
 }
 
 footer {
@@ -238,7 +249,7 @@ ul {
 }
 
 article h3 {
-     color: #BDBDBD;
+     color: #616161;
     font-weight: 400;
     margin-left: 40px;
 }
@@ -256,7 +267,7 @@ article ul li {
 
 article a {
   font-size: 16px;
-  color: #757575;
+  color: #616161;
 }
 
 article ul li a:hover {
